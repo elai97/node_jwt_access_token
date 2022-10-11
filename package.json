@@ -4,12 +4,14 @@
   "description": "JWT example",
   "main": "app.js",
   "scripts": {
-    "start": "node app"
+    "start": "node app",
+    "deploy": "vercel --prod"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.2",
-    "jsonwebtoken": "^8.1.0"
+    "jsonwebtoken": "^8.1.0",
+    "vercel": "^28.4.9"
   }
 }
